@@ -81,19 +81,16 @@ async function generateSummary(transcript, apiKey) {
   console.log('Prompt: ', prompt);
 
   // Send the transcript to the OpenAI API and get the summary
-  const response = await fetch('https://api.openai.com/v1/completions ', {
+  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${apiKey}`,
+      'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      model: 'gpt-3.5-turbo',
-      prompt,
-      temperature: 0.7,
-      n: 1,
-      max_tokens: maxSummaryLength,
-    }),
+      contents: [{
+        parts: [{ text: prompt }]
+      }]
+    })
   }).catch((err) => {
     console.log('Error: ', err);
   });
@@ -108,5 +105,5 @@ async function generateSummary(transcript, apiKey) {
   console.log('Summary: ', summary);
 
   // Return the summary
-  return { summary: summary.choices[0].text };
+  return { summary: summary.candidates[0].content.parts[0].text };
 }

@@ -25,14 +25,16 @@ delete config.chromeExtensionBoilerplate;
 
 const compiler = webpack(config);
 
+config.plugins = [new webpack.HotModuleReplacementPlugin({})].concat(
+  config.plugins || []
+);
+
 const server = new WebpackDevServer(
   {
     https: false,
     hot: true,
     liveReload: false,
-    client: {
-      webSocketTransport: 'sockjs',
-    },
+    client: false,
     webSocketServer: 'sockjs',
     host: 'localhost',
     port: env.PORT,

@@ -1,14 +1,12 @@
-# Udemy Summary with OpenAI
+# Udemy Summary with Google Gemini
 
-![OpenAI](https://img.shields.io/twitter/url?color=%2310a37f&label=OpenAI&logo=openai&logoColor=%2310a37f&style=social&url=https%3A%2F%2Fopenai.com%2F)
+![Google Gemini](https://img.shields.io/twitter/url?color=0c67ff&label=Google%20Gemini&logo=googlegemini&logoColor=%2310a37f&style=social&url=https://gemini.google.com/)
 
-Udemy Summary with OpenAI is a simple Chrome/Brave Extension (manifest v3) that allows you to get both Udemy video transcripts and summary of the video with OpenAI's AI technology.
-
-<a href="https://www.youtube.com/watch?v=-6Y5lcMYPAU" target="_blank"><img src="https://img.youtube.com/vi/-6Y5lcMYPAU/maxresdefault.jpg" alt="Watch the video" width="25%"></a>
+Udemy Summary with Google Gemini is a simple Chrome/Brave Extension (manifest v3) that allows you to get both Udemy video transcripts and summary of the video with Google Gemini's AI technology.
 
 ## Install from Chrome Web Store
 
-You can install Udemy Summary with OpenAI extension from [Chrome Web Store](https://chrome.google.com/webstore/detail/udemy-summary-with-openai/pknbmeegiiandmpcbldolgljempehfoe).
+- Will publish soon!
 
 ## Install from source
 
@@ -19,18 +17,18 @@ To install this extension, follow these steps:
 3. In Google Chrome/Brave, open the Extensions page (chrome://extensions/).
 4. Turn on Developer mode by clicking the toggle switch in the top right corner of the page.
 5. Click the `Load unpacked` button and select the unzipped folder for your extension to install it.
-6. Udemy Summary with OpenAI extension should be installed and active!
+6. Udemy Summary with Google Gemini extension should be installed and active!
 
 ## How to Set Up
 
-1. Go to [OpenAI](https://openai.com/) and sign up for an account.
-2. Go to [OpenAI API keys Page](https://beta.openai.com/account/api-keys) and create an API key.
+1. Go to [Google AI Studio](https://aistudio.google.com/apikey) and login with your google account.
+2. CLick on create a new and create one.
 3. Copy the API key.
 4. Paste the API key to the extension options page (right-click the extension icon and click `Options`) and click `Save`.
 
 ## How to Use
 
-To use Udemy Summary with OpenAI extension, follow these steps (or [watch this video](https://www.youtube.com/watch?v=-6Y5lcMYPAU)):
+To use Udemy Summary with Google Gemini extension, follow these steps:
 
 1. Go to any Udemy lesson page.
 2. Click the extension icon on the top right corner of the browser.

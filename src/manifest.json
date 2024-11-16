@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Udemy Summary with OpenAI",
-  "description": "Generate summaries of Udemy video transcripts using the OpenAI API",
+  "name": "Udemy Summary with Google Gemini",
+  "description": "Generate summaries of Udemy video transcripts using the Google Gemini API",
   "version": "1.3",
   "icons": {
     "16": "icon-16.png",
@@ -13,7 +13,7 @@
   "permissions": ["storage"],
   "host_permissions": [
     "https://www.udemy.com/course/*/learn/lecture/*",
-    "https://api.openai.com/"
+    "https://generativelanguage.googleapis.com/*"
   ],
   "action": {
     "default_popup": "popup.html",

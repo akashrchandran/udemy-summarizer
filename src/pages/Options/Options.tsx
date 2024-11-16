@@ -7,7 +7,7 @@ import './Options.css';
 
 const Options: React.FC = () => (
   <main className="container">
-    <h1>Udemy Summary with OpenAI Options</h1>
+    <h1>Udemy Summary with Google Gemini Options</h1>
     <FormApiKey />
     <StoredCourses />
     {/* <FormCourse /> */}

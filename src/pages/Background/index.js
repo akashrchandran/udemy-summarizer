@@ -72,7 +72,7 @@ ${transcript}
 Summary:
 `;
 
-// Function to generate a summary using the OpenAI API
+// Function to generate a summary using the Google Gemini API
 async function generateSummary(transcript, apiKey) {
   const words = transcript.split(' ').length;
   const maxSummaryLength = Math.max(Math.round(words * 0.5), 300);
@@ -80,7 +80,7 @@ async function generateSummary(transcript, apiKey) {
 
   console.log('Prompt: ', prompt);
 
-  // Send the transcript to the OpenAI API and get the summary
+  // Send the transcript to the Google Gemini API and get the summary
   const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`, {
     method: 'POST',
     headers: {

@@ -30,7 +30,7 @@ export const FormApiKey: React.FC = () => {
   if (apiKeyStored) {
     return (
       <>
-        <h3>OpenAI API Key </h3>
+        <h3>Gemini API Key </h3>
         <button onClick={handleCleanApiKey}>Clean API Key</button>
       </>
     );
@@ -38,9 +38,9 @@ export const FormApiKey: React.FC = () => {
 
   return (
     <>
-      <h3>OpenAI API Key </h3>
+      <h3>Gemini API Key </h3>
       <form onSubmit={handleSaveApiKey}>
-        <label htmlFor="api-key">OpenAI API Key</label>
+        <label htmlFor="api-key">Gemini API Key</label>
         <input
           value={apiKey}
           onChange={(e) => setApiKey(e.target.value)}
@@ -52,7 +52,7 @@ export const FormApiKey: React.FC = () => {
         />
         <small>
           <a
-            href="https://beta.openai.com/account/api-keys"
+            href="https://beta.Gemini.com/account/api-keys"
             target="_blank"
             rel="noreferrer"
           >

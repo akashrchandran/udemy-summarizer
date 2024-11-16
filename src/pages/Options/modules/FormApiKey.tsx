@@ -52,7 +52,7 @@ export const FormApiKey: React.FC = () => {
         />
         <small>
           <a
-            href="https://beta.Gemini.com/account/api-keys"
+            href="https://aistudio.google.com/apikey"
             target="_blank"
             rel="noreferrer"
           >

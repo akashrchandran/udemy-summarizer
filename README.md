@@ -4,6 +4,8 @@
 
 Udemy Summary with Google Gemini is a simple Chrome/Brave Extension (manifest v3) that allows you to get both Udemy video transcripts and summary of the video with Google Gemini's AI technology.
 
+![chrome_dNKBOvzfsX-ezgif com-speed](https://github.com/user-attachments/assets/a3994fda-1c3a-4650-9aeb-1df834f48a66)
+
 ## Install from Chrome Web Store
 
 - Will publish soon!

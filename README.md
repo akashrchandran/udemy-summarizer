@@ -41,3 +41,7 @@ To use Udemy Summary with Google Gemini extension, follow these steps:
 ## Privacy Policy
 
 You can find the privacy policy [here](/privacy.md).
+
+## Credits
+- [Alessandro F. Annini](https://github.com/AlessandroAnnini) for his work on [udemy-openai](https://github.com/AlessandroAnnini/udemy-openai).
+- Me -> for adding support for Google Gemini.
